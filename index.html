@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png">
+    <!--<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Expenses-chart-components</title>
+</head>
+<body>
+    <section class="section1">
+        <div>
+            <p>My balance</p>
+            <p class="balance">$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="logo">
+    </section>
+    <section class="section2">
+        <p class="chart-head">Spending - Last 7 days</p>
+        <canvas class="chart" id="barChart" style=" max-width: 400px"></canvas>
+        <hr>
+        <div class="month-balance">
+            <div>
+                <p class="total">Total this month</p>
+                <p class="month-total">$478.33</p>
+            </div>
+            <div>
+                <p class="last-month"><b>+2.4%</b></p>
+                <p class="total">from last month</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

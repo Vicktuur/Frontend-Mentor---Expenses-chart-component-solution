@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(248, 233, 221);
+    font-family: 'DM Sans', cursive;
+    margin: 0 15px 0 15px;
+}
+.section1{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: white;
+    margin-top: 70px;
+}
+.chart-head{
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.chart{
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+.balance{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.section2{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.month-balance{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+.month-total{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.last-month{
+    margin-top: 35px;
+    margin-bottom: -15px;
+}
+.total{
+    color: hsl(28, 10%, 53%);
+}
+@media (min-width: 1440px){
+    body{
+        width:450px;
+        height: auto;
+        margin: auto;
+    }
+}
