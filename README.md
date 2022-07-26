@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Vicktuur/Frontend Mentor---Expenses-chart-component-solution](https://github.com/Vicktuur/Frontend_Mentor---Expenses-chart-component-solution)
+- Solution URL: [https://github.com/Vicktuur/Frontend-Mentor---Expenses-chart-component-solution](https://github.com/Vicktuur/Frontend-Mentor---Expenses-chart-component-solution)
 - Live Site URL: [vicktuur-expenses-chart.com](https://vicktuur-expenses-chart.netlify.com)
 
 ## My process
