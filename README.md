@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/Mobile-view-Expenses-chart-components.png)
-![](images/Desktop-view-Expenses-chart-components.png)
+![Mobile-view](images/Mobile-view-Expenses-chart-components.png)
+![Desktop-view](images/Desktop-view-Expenses-chart-components.png)
 
 
 ### Links
