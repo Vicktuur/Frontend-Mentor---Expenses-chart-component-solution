@@ -13,28 +13,30 @@
     <title>Expenses-chart-components</title>
 </head>
 <body>
-    <section class="section1">
-        <div>
-            <p>My balance</p>
-            <p class="balance">$921.48</p>
-        </div>
-        <img src="images/logo.svg" alt="logo">
-    </section>
-    <section class="section2">
-        <p class="chart-head">Spending - Last 7 days</p>
-        <canvas class="chart" id="barChart" style=" max-width: 400px"></canvas>
-        <hr>
-        <div class="month-balance">
+    <div class="body">
+        <section class="section1">
             <div>
-                <p class="total">Total this month</p>
-                <p class="month-total">$478.33</p>
+                <p>My balance</p>
+                <p class="balance">$921.48</p>
             </div>
-            <div>
-                <p class="last-month"><b>+2.4%</b></p>
-                <p class="total">from last month</p>
+            <img src="images/logo.svg" alt="logo">
+        </section>
+        <section class="section2">
+            <p class="chart-head">Spending - Last 7 days</p>
+            <canvas class="chart" id="barChart" style=" max-width: 400px"></canvas>
+            <hr>
+            <div class="month-balance">
+                <div>
+                    <p class="total">Total this month</p>
+                    <p class="month-total">$478.33</p>
+                </div>
+                <div>
+                    <p class="last-month"><b>+2.4%</b></p>
+                    <p class="total">from last month</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
